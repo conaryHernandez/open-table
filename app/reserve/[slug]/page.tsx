@@ -1,5 +1,11 @@
+import { Metadata } from 'next';
 import Form from './components/Form';
 import Header from './components/Header';
+
+export const metadata: Metadata = {
+  title: 'Open Table',
+  description: 'Open Table',
+};
 
 export default function Reserve() {
   return (

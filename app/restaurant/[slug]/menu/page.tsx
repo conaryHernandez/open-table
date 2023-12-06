@@ -1,6 +1,11 @@
-import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import MenuList from '../components/Menu';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Open Table',
+  description: 'Open Table',
+};
 
 export default function Menu() {
   return (

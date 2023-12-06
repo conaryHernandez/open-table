@@ -1,11 +1,16 @@
+import { Metadata } from 'next';
 import Description from './components/Description';
-import Header from './components/Header';
 import Images from './components/Images';
 import Navbar from './components/Navbar';
 import Rating from './components/Rating';
 import ReservationCard from './components/ReservationCard';
 import Reviews from './components/Reviews';
 import Title from './components/Title';
+
+export const metadata: Metadata = {
+  title: 'Open Table',
+  description: 'Open Table',
+};
 
 export default function Restaurant() {
   return (
