@@ -1,5 +1,5 @@
-import Header from '@/components/Header';
-import HeaderBackground from '@/components/HeaderBackground';
+import Header from '../components/Header';
+import HeaderBackground from '../components/HeaderBackground';
 
 import './globals.css';
 

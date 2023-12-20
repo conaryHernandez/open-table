@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import classes from './Header.module.css';
 
-import logoImg from '@/assets/logo.png';
+import logoImg from '../../assets/logo.png';
 import NavLink from '../NavLink';
 
 export default function Header() {
@@ -15,12 +15,7 @@ export default function Header() {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink
-              href='/meals'
-              className={path.startsWith('/meals') ? classes.active : ''}
-            >
-              Meals
-            </NavLink>
+            <NavLink href='/meals'>Meals</NavLink>
           </li>
           <li>
             <NavLink href='/community'>Foodies Community</NavLink>
