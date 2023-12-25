@@ -16,8 +16,6 @@ async function Meals() {
 }
 
 export default async function MealsPage() {
-  const meals = await getAllMeals();
-
   return (
     <>
       <header className={classes.header}>
